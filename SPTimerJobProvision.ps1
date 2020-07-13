@@ -13,7 +13,7 @@ $instance = $farm.TimerService.Instances | ?{$_.ID -match 'eb0adf39-79d0-438b-96
 $instance.Status = [Microsoft.SharePoint.Administration.SPObjectStatus]::Online;
 $instance.update();
 
-To finally solve the issue, you have to use below commands to provision the timer instance using below commands.
+However, even if the above command completes successfully the issue still remains. To finally solve the issue, you must use below commands to provision the timer instance using below commands.
 
 MAKE SURE TO RUN THE BELOW COMMANDS LOCALLY ON AFFECTED SERVER USING FARM ADMIN ACCOUNT
 #>
