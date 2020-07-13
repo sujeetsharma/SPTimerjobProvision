@@ -19,7 +19,7 @@ https://joshroark.com/sharepoint-all-about-one-time-timer-jobs/
  
 https://docs.microsoft.com/en-us/archive/blogs/sujesh/sharepoint-timer-jobs-not-runningspecially-one-time-timer-jobs/ 
 
-However, even if the above command completes successfully the issue still remains. To finally solve the issue, you must use below commands to provision the timer instance using below commands.
+However, even if the above command completes successfully the issue may still remains. To finally solve the issue, you must use below commands to provision the timer instance using below commands.
 
 ### MAKE SURE TO RUN THE BELOW COMMANDS LOCALLY ON AFFECTED SERVER USING FARM ADMIN ACCOUNT
 
